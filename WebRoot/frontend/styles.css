@@ -1,0 +1,29 @@
+table {
+	background-image: url(壁纸020.jpg);
+	border-color: green;
+}
+
+td {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+img{
+    position:absolute;
+    left:-83px;
+    clip:rect(0px 108px 25px 83px);
+} 
+.red{
+  	background-color:red;
+  	width:100px;
+}
+.pink{
+  	background-color:pink;
+  	width:100px;
+}
+#b1{
+	color:#ff8000;
+}
+#b2{
+	color:#ff00ff;
+}
