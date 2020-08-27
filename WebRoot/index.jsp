@@ -6,7 +6,7 @@
 			+ path + "/";
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
 <style>
 	table{
@@ -47,6 +47,10 @@
  			var basePath = "<%=basePath%>";
 			window.location.href = basePath + "frontend/sessiontest.jsp";
 		}
+		function skip6(){
+ 			var basePath = "<%=basePath%>";
+			window.location.href = basePath + "frontend/regextest.jsp";
+		}
 </script>
 <base href="<%=basePath%>">
 <title>初始页面</title>
@@ -63,6 +67,7 @@
 			<td><input type="button" value="跳转jquery" onclick="skip3();" style="font-size: 10px; font-weight: bold"/></td>
 			<td><input type="button" value="跳转cookie" onclick="skip4();" style="font-size: 10px; font-weight: bold"/></td>
 			<td><input type="button" value="跳转session" onclick="skip5();" style="font-size: 10px; font-weight: bold"/></td>
+			<td><input type="button" value="跳转regex" onclick="skip6();" style="font-size: 10px; font-weight: bold"/></td>
 		</tr>
 	</table>
 </body>

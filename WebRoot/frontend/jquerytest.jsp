@@ -4,7 +4,7 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
   <head>
     <base href="<%=basePath%>">   
@@ -60,7 +60,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       		$("div").last().toggleClass("pink");
    		});
    		$("#name").keyup(function(){
-     		var page = "http://how2j.cn/study/checkName.jsp";
+     		var page = "https://how2j.cn/study/checkName.jsp";
      		var value = $(this).val();
         	$.ajax({
             	url: page,

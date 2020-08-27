@@ -7,7 +7,7 @@ session.setAttribute("name", "HaPe");
 //9种隐式对象request,response,out,pageContext,session,application,page,config,exception
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
   <head>
     <base href="<%=basePath%>">    

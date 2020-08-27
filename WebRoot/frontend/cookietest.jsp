@@ -10,7 +10,7 @@ c.setPath("127.0.0.1");
 response.addCookie(c);
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
   <head>
     <base href="<%=basePath%>">    
